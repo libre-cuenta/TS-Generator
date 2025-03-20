@@ -39,9 +39,10 @@ std::vector<double> TSGenerator::generate_ar_series(int n, const std::vector<dou
     for (int i = 0; i < n; ++i) {
         noise[i] = dist(gen);
     }
-            
+
+    double dot_product;
     for (int t = p; t < n; ++t) {
-        double dot_product = 0.0;
+        dot_product = 0.0;
         for (int j = 0; j < p; ++j) {
         // series[t-p:t][::-1] means reverse order: series[t - 1], series[t - 2], ..., series[t - p]
             dot_product += ar_params[j] * series[t - j - 1];
@@ -106,14 +107,16 @@ std::vector<double> TSGenerator::generate_arma_series(int n, const std::vector<d
     }
             
     int start = std::max(p, q) + 1;
+    double ar_term;
+    double ma_term;
     for (int t = start; t < n; ++t) {
         // AR часть
-        double ar_term = 0.0;
+        ar_term = 0.0;
         for (int j = 0; j < p; ++j) {
             ar_term += ar_params[j] * series[t - j - 1];
         }
         // MA часть
-        double ma_term = 0.0;
+        ma_term = 0.0;
         for (int j = 0; j < q; ++j) {
             ma_term += ma_params[j] * noise[t - j - 1];
         }
@@ -155,16 +158,18 @@ std::vector<double> TSGenerator::generate_arima_series(int n, const std::vector<
             series[i] = 0;
         }
     }
-            
+    
+    double ar_term;
+    double ma_term;
     for (int t = std::max(p, q); t < n; ++t) {
         // AR часть
-        double ar_term = 0.0;
+        ar_term = 0.0;
         for (int j = 0; j < p; ++j) {
             ar_term += ar_params[j] * series[t - j - 1];
         }
                 
         // MA часть
-        double ma_term = 0.0;
+        ma_term = 0.0;
         for (int j = 0; j < q; ++j) {
             ma_term += ma_params[j] * noise[t - j - 1];
         }
@@ -211,25 +216,29 @@ std::vector<double> TSGenerator::generate_sarimax_series(int n, const std::vecto
         series = diff(series, noise[0]);
     }
             
+    double ar_term;
+    double ma_term;
+    double seasonal_ar;
+    double seasonal_ma;
     int start_index = std::max({ p, q, seasonal_order[0] + seasonal_order[2] });
     for (int t = start_index; t < n; ++t) {
         // AR часть
-        double ar_term = 0.0;
+        ar_term = 0.0;
         for (int j = 0; j < p; ++j) {
             ar_term += ar_params[j] * series[t - j - 1];
         }
         // MA часть
-        double ma_term = 0.0;
+        ma_term = 0.0;
         for (int j = 0; j < q; ++j) {
             ma_term += ma_params[j] * noise[t - j - 1];
         }
                 
         // Сезонные члены
-        double seasonal_ar = 0.0;
+        seasonal_ar = 0.0;
         for (int j = 0; j < seasonal_order[0]; ++j) {
             seasonal_ar += seasonal_order[0] * series[t - s - j];
         }
-        double seasonal_ma = 0.0;
+        seasonal_ma = 0.0;
         for (int j = 0; j < seasonal_order[2]; ++j) {
             seasonal_ma += seasonal_order[2] * noise[t - s - j];
         }
