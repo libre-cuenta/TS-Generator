@@ -1,8 +1,25 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import numexpr as ne
 
 class TSGenerator:
+    @classmethod
+    def generate_by_expression(cls, time, expr, noise_std = 1):
+        # expr - выражение с параметром t
+        # time - значения параметра t
+        # noise_std - стандартное отклонение шума
+
+        series = list()
+        
+        for t in time:
+            series.append(ne.evaluate(expr))
+        
+        noise = np.random.normal(0, noise_std, len(time))
+        series += noise
+        
+        return series
+
     @classmethod
     def generate_ar_series(cls, n, ar_params, noise_std=1):
         """
