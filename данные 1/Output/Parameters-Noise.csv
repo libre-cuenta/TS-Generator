@@ -1,0 +1,5 @@
+Time Series,Metric,alpha,tau,K,DC,init,tol,IMFs
+Delhi temerature,R2,500,0,3,True,1,1e-06,F - SumIMFs(1 - 2)
+Delhi temerature,R2_Adj,500,0,3,True,1,1e-06,F - SumIMFs(1 - 2)
+Delhi temerature,AIC,500,0,3,True,1,1e-06,F - SumIMFs(1 - 2)
+Delhi temerature,BIC,500,0,3,True,1,1e-06,F - SumIMFs(1 - 2)
