@@ -1,0 +1,4 @@
+Time Series,IMFs,Metric,alpha,tau,W init,fs,tol
+Delhi temerature,2 - 3,AIC,0,0,1,0,1e-06
+Delhi temerature,2 - 4,AIC,0,0,False,0,1e-06
+Delhi temerature,2 - 5,AIC,0,0,False,0,1e-06
