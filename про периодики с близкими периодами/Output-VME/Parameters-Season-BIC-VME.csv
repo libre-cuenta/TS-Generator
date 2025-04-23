@@ -1,0 +1,16 @@
+Time Series,IMFs,Metric,alpha,tau,W init,fs,tol
+TS1,2 - 3,BIC,0,0,1,0,1e-06
+TS1,2 - 4,BIC,0,0,False,0,1e-06
+TS1,2 - 5,BIC,0,0,False,0,1e-06
+TS2,2 - 3,BIC,500,3,1,0,1e-06
+TS2,2 - 4,BIC,0,0,False,0,1e-06
+TS2,2 - 5,BIC,0,0,False,0,1e-06
+TS3,2 - 3,BIC,20000,0,1,0,1e-06
+TS3,2 - 4,BIC,0,0,False,0,1e-06
+TS3,2 - 5,BIC,0,0,False,0,1e-06
+TS4,2 - 3,BIC,0,0,1,0,1e-06
+TS4,2 - 4,BIC,0,0,False,0,1e-06
+TS4,2 - 5,BIC,0,0,False,0,1e-06
+TS5,2 - 3,BIC,500,3,1,0,1e-06
+TS5,2 - 4,BIC,0,0,False,0,1e-06
+TS5,2 - 5,BIC,0,0,False,0,1e-06
