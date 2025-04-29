@@ -14,6 +14,8 @@ from scipy.interpolate import CubicSpline
 # 
 # log_trend(a, b) - логарифмический тренд - a + b*log(c*x)
 # 
+# extend_trend(a, b) - степенной тренд - a * (x^b)
+# 
 # spline_trend(x_points, y_points, num_points) - сплайн по точкам
 # x_points - x координаты
 # y_points - y координаты
