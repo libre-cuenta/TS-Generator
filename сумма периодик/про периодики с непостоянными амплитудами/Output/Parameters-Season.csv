@@ -1,0 +1,17 @@
+Time Series,Season,Metric,alpha,tau,K,DC,init,tol,IMFs
+TS1,s7,R2,0,0,3,False,0,1e-06,2 - 1
+TS1,s7,R2_Adj,0,0,3,False,0,1e-06,2 - 1
+TS1,s7,AIC,0,0,3,False,0,1e-06,2 - 1
+TS1,s7,BIC,0,0,3,False,0,1e-06,2 - 1
+TS2,s9,R2,1000,0,7,True,0,1e-06,2 - 2
+TS2,s9,R2_Adj,1000,0,7,True,0,1e-06,2 - 2
+TS2,s9,AIC,1000,0,7,True,0,1e-06,2 - 2
+TS2,s9,BIC,1000,0,7,True,0,1e-06,2 - 2
+TS3,s8,R2,0,0,3,False,0,1e-06,2 - 1
+TS3,s8,R2_Adj,0,0,3,False,0,1e-06,2 - 1
+TS3,s8,AIC,0,0,3,False,0,1e-06,2 - 1
+TS3,s8,BIC,0,0,3,False,0,1e-06,2 - 1
+TS4,s9,R2,1000,0,7,False,2,1e-06,2 - 2
+TS4,s9,R2_Adj,1000,0,7,False,2,1e-06,2 - 2
+TS4,s9,AIC,1000,0,7,False,2,1e-06,2 - 2
+TS4,s9,BIC,1000,0,7,False,2,1e-06,2 - 2
