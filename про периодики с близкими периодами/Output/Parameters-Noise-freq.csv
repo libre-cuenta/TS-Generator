@@ -1,0 +1,21 @@
+Time Series,Metric,alpha,tau,K,DC,init,IMFs
+TS1,R2,500,0,3,True,2,10 --- 7
+TS1,R2_Adj,500,0,3,False,2,10 --- 7
+TS1,AIC,500,0,3,False,2,10 --- 7
+TS1,BIC,500,0,3,False,2,10 --- 7
+TS2,R2,500,0,3,True,2,10 --- 6
+TS2,R2_Adj,500,0,3,True,2,10 --- 6
+TS2,AIC,500,0,3,False,2,10 --- 6
+TS2,BIC,500,0,3,False,2,10 --- 6
+TS3,R2,2500,0,3,False,2,10 --- 4
+TS3,R2_Adj,2500,0,3,False,2,10 --- 6
+TS3,AIC,2500,0,3,False,0,10 --- 2
+TS3,BIC,2500,0,3,True,2,10 --- 4
+TS4,R2,500,0,3,True,2,10 --- 7
+TS4,R2_Adj,500,0,3,True,2,10 --- 7
+TS4,AIC,500,0,3,False,2,10 --- 7
+TS4,BIC,500,0,3,True,2,10 --- 7
+TS5,R2,500,0,3,False,2,10 --- 6
+TS5,R2_Adj,500,0,3,True,2,10 --- 6
+TS5,AIC,500,0,3,False,2,10 --- 6
+TS5,BIC,500,0,3,False,2,10 --- 6
