@@ -1,0 +1,6 @@
+Time Series,Season,Metric,Trend/Season/Noise,IMFs,alpha,tau,W init
+TS1,s7,AIC,Season,0 --- 0,50000,0,5001
+TS2,s9,AIC,Season,0 --- 0,10000,0,2501
+TS3,s8,AIC,Season,0 --- 0,50000,0,20001
+TS4,s9,AIC,Season,0 --- 0,40000,0,1
+TS4,s9,AIC,Season,0 --- 1,25000,0,1

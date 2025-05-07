@@ -1,0 +1,10 @@
+Time Series,Metric,Trend/Season/Noise,IMFs,alpha,tau,W init
+TS1,BIC,Trend,1 --- 1,50000,0,10001
+TS1,BIC,Season,2 --- 2,1000,0,10001
+TS2,BIC,Trend,1 --- 1,50000,0,10001
+TS2,BIC,Season,2 --- 2,500,0,10001
+TS3,BIC,Trend,1 --- 1,50000,0,15001
+TS3,BIC,Season,2 --- 2,500,0,10001
+TS4,BIC,Trend,1 --- 1,50000,0,10001
+TS4,BIC,Season,2 --- 2,1000,4,1
+TS4,BIC,Season,2 --- 3,7500,0,1

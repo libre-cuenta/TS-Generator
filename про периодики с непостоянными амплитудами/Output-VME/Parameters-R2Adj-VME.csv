@@ -1,0 +1,9 @@
+Time Series,Metric,Trend/Season/Noise,IMFs,alpha,tau,W init
+TS1,R2Adj,Trend,1 --- 1,0,0,1
+TS1,R2Adj,Season,2 --- 2,0,0,1
+TS2,R2Adj,Trend,1 --- 1,0,0,1
+TS2,R2Adj,Season,2 --- 2,500,3,45001
+TS3,R2Adj,Trend,1 --- 1,0,0,1
+TS3,R2Adj,Season,2 --- 2,0,0,1
+TS4,R2Adj,Trend,1 --- 1,0,0,1
+TS4,R2Adj,Season,2 --- 2,500,3,45001
