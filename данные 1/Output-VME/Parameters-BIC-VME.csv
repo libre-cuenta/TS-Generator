@@ -1,0 +1,4 @@
+Time Series,Metric,Trend/Season/Noise,IMFs,alpha,tau,W init
+Dehli-Temerature,BIC,Trend,1 --- 1,2500,0,1001
+Dehli-Temerature,BIC,Season,2 --- 2,30000,0,1
+Dehli-Temerature,BIC,Season,2 --- 3,30000,0,501

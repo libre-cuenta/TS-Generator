@@ -1,0 +1,5 @@
+Time Series,Component,BIC
+Dehli-Temerature,Trend,-93.44791
+Dehli-Temerature,Season,688.82692
+Dehli-Temerature,Noise,627.1188332783546
+Dehli-Temerature,Noise-freg,4951.8904619400555

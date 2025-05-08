@@ -1,0 +1,5 @@
+Time Series,Component,R2Adj
+Dehli-Temerature,Trend,0.98093
+Dehli-Temerature,Season,0.08790
+Dehli-Temerature,Noise,0.24696777876127296
+Dehli-Temerature,Noise-freg,-0.07149948605070211

@@ -1,0 +1,5 @@
+Time Series,Component,AIC
+Dehli-Temerature,Trend,-119.88571
+Dehli-Temerature,Season,662.38912
+Dehli-Temerature,Noise,600.681030076806
+Dehli-Temerature,Noise-freg,4928.911559370249
