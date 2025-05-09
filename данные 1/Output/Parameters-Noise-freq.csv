@@ -1,5 +1,5 @@
 Time Series,Metric,alpha,tau,K,DC,init,IMFs
-Dehli-Temerature,R2,500,0,3,False,0,10 --- 6
-Dehli-Temerature,R2_Adj,500,0,3,False,0,10 --- 6
-Dehli-Temerature,AIC,500,0,3,False,0,10 --- 6
-Dehli-Temerature,BIC,500,0,3,False,0,10 --- 6
+Dehli-Temerature,R2,50000,0,3,True,10,10 + 6
+Dehli-Temerature,R2_Adj,50000,0,3,True,10,10 + 6
+Dehli-Temerature,AIC,50000,0,3,True,10,10 + 6
+Dehli-Temerature,BIC,50000,0,3,True,10,10 + 6
