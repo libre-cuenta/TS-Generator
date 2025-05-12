@@ -1,5 +1,5 @@
-Time Series,Component,R2
-Dehli-Temerature,Trend,0.98203
-Dehli-Temerature,Season,-13.49247
-Dehli-Temerature,Noise,-7.166086255611672
-Dehli-Temerature,Noise-freg,-25.266850820142814
+Time Series,Component,R2,R2Adj,AIC,BIC
+Dehli-Temerature,Trend,0.98203,0.98093,-119.88571,-93.44791
+Dehli-Temerature,Season,-13.49247,0.0879,662.38912,688.82692
+Dehli-Temerature,Noise,-7.166086256,0.246967779,600.6810301,627.1188333
+Dehli-Temerature,Noise-freg,-25.26685082,-0.071499486,4928.911559,4951.890462
